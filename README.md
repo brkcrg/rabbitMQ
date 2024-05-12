@@ -65,11 +65,12 @@ Bu README dosyası, RabbitMQ'nun Docker üzerinden Ubuntu işletim sistemine kur
 
 Proje dosyalarını çalıştırmak için aşağıdaki komutları kullanabilirsiniz:
   -package.json dosyasının içine aşapıdaki komutu yapıştırın.
+  ```bash
   "scripts": {
     "publisher": "node publisher.js",
     "consumer": "node consumer.js"
   }
-
+```
 - **Publisher (Yayımcı)**: RabbitMQ'ya mesaj göndermek için kullanılır.
   
   ```bash
